@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>WaTTerGen</title>
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice" type="text/css"/>
+        <style type = text/css>
+            body {
+                font-family: 'Alice', sans-serif;
+            }
+            p {
+                color: black;
+            }
+    	    .pad {
+    	        padding: 20px;
+    	        border-top: 2px solid black;
+    	        margin-top: 5px;
+    	        margin-bottom: 5px;
+    	    }
+    	    .large {
+    	        font-size: 5em;
+    	    }
+    	    .h2-large {
+    	        font-size: 2em;
+    	        color: black;
+    	    }
+    	    .pad-2{
+    	        border-bottom: 2px solid black;
+    	    }
+    	    figcaption {
+    	        font-size: 20px;
+    	    }
+    	    .jumbotron-2 {
+    	        background-color: #5aa998;
+    	    }
+    	    h1 {
+    	        color: black;
+    	    }
+    	    .pad-3{
+    	        margin-top: 5px;
+    	        margin-bottom: 5px;
+    	    }
+        </style>
+    </head>
+    <body>
+         <header class = "pad-2">
+            <div class="container">
+                <h1 class="col-sm-6 text-center large pull-left"><b>WatterGen</b></h1>
+                <div class="col-sm-6">
+                    <ul class= "navbar nav nav-tabs pull-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li class = "active"><a href="Designprocess.html">Design Process</a></li>
+                        <li><a href="Productinfo.html">Product Info</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+        <section class = "container main">
+            
+            <div class = "container text-center">
+                <h1><b>Design Process</b></h1>
+                <img src = "Images/AgileDesignImg.jpg"/>
+                <figcaption>Fig 1 - The agile design process consists of four steps: 1) Identifying a problem. 2) Defining a plan to solve
+                the problem. 3) Reviewing the plan through multiple stages of testing. 4) Deploying a final product or idea. This process
+                is repeated as many times as the developer sees fit. </figcaption>
+            </div>
+            
+            <div class = "row pad jumbotron-2">
+                <h1 class = "text-center"><b>Iteration #1</b></h1>
+            </div>
+            
+            <div class = "row pad">
+                <div>
+                    <h2 class = "h2-large text-center"><b>Phase 1: Identifying a Problem</b></h2>
+                    <p> Millions of gallons of water are wasted every single day. On average, every American uses 17.2 gallons of water everytime
+                    they shower. More water is also wasted whenever someone washes their hands or flushes the toilet. After only one use, this water 
+                    is simply drained through plumbing pipes until it is released into the ocean or treated at a water treatment facility. Even though the energy 
+                    from the water flowing through the pipes is a significant amount, no solution harnessing this energy for the benefit of the user has
+                    been created. </p>
+                </div>
+                <div>
+                    <img class = "pad-3 col-sm-4" src = "Images/sink.jpg" alt = "a faucet" />
+                    <img class = "pad-3 col-sm-4" src = "Images/shower.jpg" alt = "a shower"/>
+                    <img class = "pad-3 col-sm-4" src = "Images/toilet.jpg" alt = "a toilet"/>
+                </div>
+            </div>
+            
+            <div class = "row pad jumbotron-2">
+                <div class = "col-sm-7">
+                    <h2 class = "h2-large text-center"><b>Phase 2: Developing a Plan/ Solution</b></h2>
+                    <p> Our team's original solution is Wattergen. Wattergen is a conventional hydroelectrical turbine that can be placed in any household
+                    plumbing pipe. The turbine is placed either parallel or perpendicular to the water flow in the pipe and it is rotated by the force of the
+                    water flowing through the pipe. Furthermore, because the kinetic energy will have to be converted to electrical energy, a reverse generator, 
+                    or a DC motor, will be connected to the turbine. When the turbine is rotated by the energy from the flow of the water, the axle connected to
+                    the turbine from the DC motor will rotate as well, resulting in electrical energy being created. Similar to solar power, the energy generated
+                    can either be stored for the benefit of the user or it can be returned back into the main power grid. </p>
+                </div>
+                <div class = "col-sm-5">
+                    <img class = "text-center" src = "Images/wattergenimage.jpg" alt = "our first simulation"/>
+                    <figcaption>Fig. 1: Our first model which was made on inventor.</figcaption>
+                </div>
+            </div>
+            
+            <div class = "row pad">
+                <div>
+                    <h2 class = "h2-large text-center"><b>Phase 3: Testing and Simulations</b></h2>
+                    <p> During this phase of the process, our team performed multiple calculations to discover if our solution was feasible and had the potential
+                    to go positive. <br><br> In our first caclulation scenario, we set up a situation with 100 households and the total average amount of water that is drained out of each household on
+                    a daily basis. Our team found that 55 gallons are used per 100 households every minute. This means that in a 2 inch pipe, water is pumped out at
+                    a rate of 22.467 ft/sec. Assuming that the turbine is about 2 inches in diameter (most household drainage pipes are 2 inches in diameter), then the 
+                    turbines from all 100 households would rotate at 429 RPM. In this scenario, it was found that $7.20 worth of electrical energy could be generated
+                    every hour (60 kwh). This amount can also be scaled up because multiple turbines can be placed in multiple pipes in each household. <br><br> To confirm our
+                    calculations, our team set up another scenario with the Burj Khalifa, the tallest skyscraper in the world. From an online source on the Burj Khalifa, 
+                    we found that the building consumes about 250,000 gallons of water on avarage on a daily basis. This means that the building uses about 10,416 gallons
+                    per hour or 173.6 gallons per minute. Since most drainage pipes are 2 inches in diameter, water is pumped out a rate of 70 ft/sec. When converted, this
+                    equates to the turbine spinning at a rate of 8021 RPM. From this building alone, our idea could end up producing $129.58 worth of electrical energy 
+                    every hour (1079.87 kwh). <br><br> With our calculations confirmed, we found that Wattergen had the potential to produce 5% of every community's energy if it was
+                    implemented on the global scale. From the 100 households scenario, it was discovered that a 100 household community uses about 908,000 kw per month. $7.20 worth
+                    of energy is equivalent to about 60 kw/hour. In a 100 household community, these turbines have the potential to generate at least 44,000 kw per month. 
+                    In conclusion, consumers could automatically cut 5% from their energy bill by using our technology in their plumbing system. 
+                    </p>
+                </div>
+                <div class = "col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-GXwMAhDCYk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <figcaption>Fig. 1: Video of the turbine attached to the DC motor. As shown by the multimeter, when the turbine is spun, electrical energy is generated. </figcaption>
+                </div>
+                <div class = "col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6Cr5c__jot0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <figcaption>Fig. 2: Simulation of the turbine system. When water passes through the pipe with enough force, the turbine is spun.</figcaption>
+                </div>
+            </div>
+            
+            <div class = "row pad jumbotron-2">
+                <div>
+                    <h2 class = "h2-large text-center"><b>Phase 4: Deploying a Prototype or Model</b></h2>
+                    <p> Due to the limited amount of time and resources available to our team, we developed a 3D model of our turbine using a 3D printer and PLA (Poly Lactic Acid)
+                    plastic. The turbine was then attached to a DC motor to resemble the actual model that would be placed inside every household pipe. The final model will probably
+                    be made of a larger DC motor attached to a turbine that is made out of a corrosion resistant metal (stainless steel, nickel, or titanium). To read more about our
+                    final product proposal, access our product information page by clicking on the "product info" tab in the navigation bar above. </p>
+                </div>
+                <div class = "pad-3 col-sm-6">
+                    <img src = "Images/bladeimage.jpg" alt = "Our turbine Prototype"/>
+                    <figcaption>Fig. 1: An image of our final turbine. This turbine was 3D printed and attached to our DC motor.</figcaption>
+                </div>
+                <div class = "pad-3 col-sm-6">
+                    <img src = "Images/blenderanimation.jpg" alt = "A Picture of Our Final Animation"/>
+                    <figcaption>Fig. 2: A picture of our animation that was created on blender.</figcaption>
+                </div>
+            </div>
+            
+        </section>
+        
+        <footer class = "row jumbotron pad">
+            <div class = "container">
+                <p class = "pull-left col-sm-6"> Entrepreneurship Project 2018</p>
+                <p class = "pull-right"> Dublin High School</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
